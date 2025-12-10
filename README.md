@@ -64,7 +64,7 @@ O servidor iniciará em `http://localhost:5173`
 Em outro terminal:
 
 ```bash
-python robot_autonomous_control.py
+python3 robot_autonomous_control.py
 ```
 
 ### 3. Acesse a interface
