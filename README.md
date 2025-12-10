@@ -166,11 +166,3 @@ Inicie o backend e verifique no navegador se o status muda para "Conectado"
 | Câmera não detectada | Reconecte USB 3.0, verifique `realsense-viewer` |
 | WebSocket desconectado | Verifique se `robot_autonomous_control.py` está rodando |
 | Robô não responde | Verifique alimentação e conexão do Arduino |
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT.
-
-## 👥 Contribuição
-
-Contribuições são bem-vindas! Abra uma issue ou pull request.
