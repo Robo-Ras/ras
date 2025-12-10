@@ -39,7 +39,7 @@ npm install
 ### 3. Instale as dependências do Python
 
 ```bash
-pip install -r requirements.txt
+pip install -r backend/requirements.txt
 ```
 
 ### 4. Configure o Arduino
@@ -48,6 +48,17 @@ pip install -r requirements.txt
 2. Carregue o arquivo `arduino_robot_control.ino`
 3. Selecione a porta correta (ex: `/dev/ttyUSB0` no Linux)
 4. Faça upload para o Arduino
+
+
+### 5. Instalar Intel RealSense SDK
+
+```bash
+# Ubuntu/Debian
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
+sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(lsb_release -cs) main"
+sudo apt update
+sudo apt install librealsense2-dkms librealsense2-utils
+```
 
 ## ▶️ Executando o Sistema
 
@@ -64,6 +75,7 @@ O servidor iniciará em `http://localhost:5173`
 Em outro terminal:
 
 ```bash
+cd backend
 python3 robot_autonomous_control.py
 ```
 
