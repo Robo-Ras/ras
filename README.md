@@ -2,7 +2,8 @@
 
 Sistema de controle e navegação autônoma para robô omnidirecional de 3 rodas, utilizando câmeras Intel RealSense (D435 e L515), detecção YOLO e interface web em tempo real.
 
-![Robot Control Interface](docs/preview.png)
+![RAS-Imagem](https://github.com/user-attachments/assets/fb7c15bb-2333-40f6-87b7-962a2bd71497)
+
 
 ## 📋 Pré-requisitos
 
