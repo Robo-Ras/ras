@@ -26,8 +26,8 @@ Sistema de controle e navegação autônoma para robô omnidirecional de 3 rodas
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/robot-navigation.git
-cd robot-navigation
+git clone https://github.com/Robo-Ras/ras.git
+cd Robo-Ras
 ```
 
 ### 2. Instale as dependências do Frontend
